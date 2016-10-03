@@ -1,40 +1,72 @@
-* {
-  box-sizing: border-box;
+*{
+  box-sizing:border-box;
 }
+
 
 h1 {
   text-align: center;
-  margin-bottom: 30px
-}
-
-section {
-  background: gray;
-  width: 300px;
-  border: 3px;
-  border-style: solid;
+  margin-bottom: 30px;
 }
 
 .title1 {
-  text-align: center;
-  background: pink;
-  width:100px;
-  border: 1px;
-  border-style: solid;
+  background-color: pink;
+  position: absolute;
+  top:0;
+  right: 0
+  
 }
 
 .title2 {
-  text-align: center;
-  background: red;
-  color: white;
-  width:100px;
-  border: 1px;
-  border-style: solid;
+  background-color: red;
+  position: absolute;
+  top:0;
+  right: 0
 }
 
 .title3 {
-  text-align: center;
-  background: orange;
-  width:100px;
-  border: 1px;
-  border-style: solid;
+  background-color: orange;
+  position: absolute;
+  top:0;
+  right: 0
 }
+
+.description{
+}
+
+#section1,#section2{
+  background-color: gray;
+  position: relative;
+}
+
+
+/********** Large devices only **********/
+@media (min-width : 992px) {
+  #section1{
+    width: 31.33%;
+    float: left;
+    margin: 0 2% 0 0
+  }
+
+  #section2{
+    width: 33.33%;
+    float: left;
+    margin: 0 0 0 0
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width : 776px) and (max-width : 991px)  {
+  #section1 {
+    width: calc(50% - 16px);
+    float: left;
+    margin-right: 16px
+  }
+
+  #section2 {
+    width: 100%;
+    clear: left;
+  }
+}
+
+
