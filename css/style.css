@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  margin-bottom: 30px
+}
+
+section div.title1 {
+  color: #DD0000
+}
+
+section div.title2 {
+  color: red
+}
+
+section div.title3 {
+  color: yellow
+}
