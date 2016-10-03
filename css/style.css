@@ -1,16 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   text-align: center;
   margin-bottom: 30px
 }
 
-section div.title1 {
-  color: #DD0000
+section {
+  background: gray;
+  width: 300px;
+  border: 3px;
+  border-style: solid;
 }
 
-section div.title2 {
-  color: red
+.title1 {
+  text-align: center;
+  background: pink;
+  width:100px;
+  border: 1px;
+  border-style: solid;
 }
 
-section div.title3 {
-  color: yellow
+.title2 {
+  text-align: center;
+  background: red;
+  color: white;
+  width:100px;
+  border: 1px;
+  border-style: solid;
+}
+
+.title3 {
+  text-align: center;
+  background: orange;
+  width:100px;
+  border: 1px;
+  border-style: solid;
 }
